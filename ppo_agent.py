@@ -107,7 +107,7 @@ class PpoAgent(object):
                  comm=None, comm_train=None, use_news=False,
                  update_ob_stats_every_step=True,
                  int_coeff=None,
-                 ext_coeff=None,
+                 ext_coeff=None
                  ):
         self.lr = lr
         self.ext_coeff = ext_coeff
